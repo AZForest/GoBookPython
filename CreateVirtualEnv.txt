@@ -1,0 +1,36 @@
+How to create and use one
+Create a virtual environment
+
+bash
+
+python3 -m venv myenv
+This creates a folder called myenv in your current directory.
+
+Activate the virtual environment
+
+On macOS/Linux:
+
+bash
+source myenv/bin/activate
+
+When activated, your shell prompt usually changes to show the environment name.
+
+Install packages inside the virtual environment
+
+Now, when you run
+
+bash
+Copy
+Edit
+pip install requests beautifulsoup4
+those packages go into this environment only.
+
+Deactivate when done
+
+Just run
+
+bash
+Copy
+Edit
+deactivate
+to exit the virtual environment and go back to the system’s Python.
