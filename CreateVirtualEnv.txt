@@ -4,6 +4,7 @@ Create a virtual environment
 bash
 
 python3 -m venv myenv
+
 This creates a folder called myenv in your current directory.
 
 Activate the virtual environment
